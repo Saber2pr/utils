@@ -9,7 +9,7 @@ const YI = 100000000
  * 1.0334 -> 1.03
  * 1.0 -> 1.0
  */
-export const parseFixed = (val: number, size = 2) => {
+export const parseFixed = (val: number | string, size = 2) => {
   if (isNullOrUndefined(val) || Number.isNaN(val)) {
     return '-'
   }
@@ -28,6 +28,10 @@ export const parseFixed = (val: number, size = 2) => {
  * 单位化
  */
 export const parseUnit = (val: number | string, prefix = ''): string => {
+  if (typeof val === 'object') {
+    return '-'
+  }
+
   val = Number(val)
   if (isNullOrUndefined(val) || Number.isNaN(val)) {
     return '-'

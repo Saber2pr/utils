@@ -8,7 +8,7 @@ export const splitArray = <T>(array: T[], interval = 4) => {
       temp = []
     }
   }
-  if (temp.length) {
+  if (temp.length && interval > 0) {
     result.push(temp)
   }
 

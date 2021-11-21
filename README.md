@@ -1,11 +1,9 @@
-# ts-lib-tpl
-
-> ts lib template
+# @saber2pr/utils
 
 ```bash
-yarn add @saber2pr/lib-name
+yarn add @saber2pr/utils
 ```
 
-### Feature
-
 ### Usage
+
+[document]()

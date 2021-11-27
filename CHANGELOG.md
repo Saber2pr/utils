@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/Saber2pr/utils/compare/v0.0.3...v0.0.4) (2021-11-27)
+
+
+### Features
+
+* uuid ([75ce353](https://github.com/Saber2pr/utils/commit/75ce3538c2e958cb5f40ca2ffed63c9f0bcc7aab))
+
 ### [0.0.3](https://github.com/Saber2pr/utils/compare/v0.0.2...v0.0.3) (2021-11-24)
 
 

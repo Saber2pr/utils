@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/Saber2pr/utils/compare/v0.0.4...v0.0.5) (2021-12-18)
+
+
+### Features
+
+* inject ([9ae9d8d](https://github.com/Saber2pr/utils/commit/9ae9d8d35faed9f2c9ec1efa93f8af731f5977cf))
+
 ### [0.0.4](https://github.com/Saber2pr/utils/compare/v0.0.3...v0.0.4) (2021-11-27)
 
 

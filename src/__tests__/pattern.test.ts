@@ -12,6 +12,15 @@ def`
 hello
 ---end---
 def`
+    expect(
+      pattern.inject(str, '---start---\n', '\n---end---', 'hello')
+    ).toEqual(str2)
+  })
+
+  it('inject2', () => {
+    const str = `---start------end---`
+
+    const str2 = `---start---hello---end---`
     expect(pattern.inject(str, '---start---', '---end---', 'hello')).toEqual(
       str2
     )

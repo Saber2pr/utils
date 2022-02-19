@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/Saber2pr/utils/compare/v0.0.6...v0.0.7) (2022-02-19)
+
+
+### Features
+
+* getKeys ([9f051ea](https://github.com/Saber2pr/utils/commit/9f051ea7be7531603499ad599e4babbc6b6d1e2b))
+
 ### [0.0.6](https://github.com/Saber2pr/utils/compare/v0.0.5...v0.0.6) (2021-12-18)
 
 

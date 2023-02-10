@@ -9,12 +9,14 @@ const template = (tpl: string, values: { [x: string]: any }) =>
 
 export class I18n<T extends ILocalesTextMap, M = T[keyof T]> {
   private currentTextMap: ITextMap = {}
+  public language: keyof T
 
   constructor(private localesTextMap: T) {
     this.setLocal()
   }
 
   setLocal(locale?: keyof T) {
+    this.language = locale
     this.currentTextMap =
       this.localesTextMap[locale] ||
       this.localesTextMap[Object.keys(this.localesTextMap)[0]]
